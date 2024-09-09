@@ -7,7 +7,7 @@ const apiMovies = axios.create({
         
     },
     headers: {
-        Authorization: 'bearer ' + process.env.APIKEY
+        Authorization: 'bearer ' 
     }
 })
 

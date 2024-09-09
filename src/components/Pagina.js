@@ -8,11 +8,8 @@ export default function Pagina(props) {
         <Container>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="/fundamentos">Filmes</Nav.Link>
-            <Nav.Link href="/fundamentos">Filmes Populares</Nav.Link>
-            <Nav.Link href="/objetos">Series</Nav.Link>
-            <Nav.Link href="/objetos">Series Populares</Nav.Link>
-            <Nav.Link href="/nomes">Atores</Nav.Link>
+            <Nav.Link href="/filmes">Filmes</Nav.Link>
+            <Nav.Link href="/series">Series</Nav.Link>
             <Navbar.Collapse id="navbar-dark-example">
         </Navbar.Collapse>
           </Nav>
