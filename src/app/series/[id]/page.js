@@ -61,7 +61,7 @@ export default function Page({ params }) {
           <Row>
             {atores.map(item => (
               <Col key={item.id} className='my-3' md={2}>
-                <a href={'../atores/' + item.id}><img height={290} src={'https://image.tmdb.org/t/p/w500/' + item.profile_path} /></a>
+                <a href={'../ator/' + item.id}><img height={290} src={'https://image.tmdb.org/t/p/w500/' + item.profile_path} /></a>
               </Col>
             ))}
           </Row>
